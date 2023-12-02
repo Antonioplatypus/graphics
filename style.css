@@ -1,4 +1,5 @@
-.body { font-family: "Times New Roman", Times, serif;}
+body { background-color: #474A51; }
+
 
 body, html {
     height: 100%;
@@ -26,6 +27,22 @@ body, html {
     font-size: 2vw;
 }
 
-#bg {
-   max-width: 10px;
-}
+.bg {
+    background: url(../images/DonnerModel30.jpg);
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    justify-content: center;
+    background-color: #1F3438;
+    padding-top: 8px; padding-bottom: 8px;
+  }
+
+a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hover {color: black;}
