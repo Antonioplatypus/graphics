@@ -9,9 +9,23 @@ body, html {
 .rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 240px;}
 .lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 240px;}
 
+.imgright a {
+    display: block;
+    width: 540px;
+    height: 720px;
+    z-index: 2;
+}
+
 .imgright {
     max-width: 100%;
     max-height: 100%;
+    padding: 20px; 
+}
+
+.imgright img {
+    border-radius: 10%;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .textright{
@@ -46,3 +60,51 @@ body, html {
   }
 
 a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hover {color: black;}
+
+.transition-1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    background-color: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+  }
+  
+  .transition-1.is-active {
+    pointer-events: all;
+    opacity: 1;
+  }
+  
+  .transition-2 {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    bottom: 0;
+    z-index: 101;
+    background-color: black;
+    transition: 0.5s ease-out;
+  }
+  
+  .transition-2.is-active {
+    left: 0px;
+  }
+  
+  .transition-3 {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background-color: black;
+    transition: 0.5s ease-out;
+  }
+  
+  .transition-3.is-active {
+    top: 0;
+  }
