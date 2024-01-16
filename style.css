@@ -12,17 +12,32 @@ body, html {
   opacity: 75%;
 }
 
-.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 240px;}
-.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 240px;}
-.ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 240px;}
+#imgMain {
+    display:block; width: 80%; height: 80%; margin-left: auto; margin-right: auto; padding-bottom: 35px;
+}
 
-.ccontainer {opacity: 0%;}
+.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
+.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
+.ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
+.imgcontainer {display:flex; align-items: center; justify-content: center; max-width: 1080px; max-height: 720px;}
+.gallery { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 15px; text-align: center; align-items: center;}
+
+.galleryimg > img {
+  width: 420px; height: 420px; border-radius: 12px; padding-bottom: 12px;
+}
 
 .imgright {
   flex-shrink: 0.2;
   padding: 20px; 
   width: 540px;
   height: 720px;
+}
+
+.imgrightab {
+  flex-shrink: 0.2;
+  padding: 20px; 
+  width: 820px;
+  height: 108px;
 }
 
 .imgright a {
@@ -33,10 +48,23 @@ body, html {
 }
 
 .imgright img {
+  width: 100%;
+  border-radius: 10%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.imgrightab > img {
     width: 100%;
     border-radius: 10%;
     z-index: 1;
     pointer-events: none;
+}
+
+.imgrightab > img {
+  padding-top: 20px;
+  height: 400%;
+  width: 100%;
 }
 
 .textright{
@@ -52,14 +80,6 @@ body, html {
     font-size: 2vw;
 }
 
-.bg {
-    background: url(../images/DonnerModel30.jpg);
-    height:100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-
 .header {
     display: flex;
     width: 100%;
@@ -72,6 +92,15 @@ body, html {
   }
 
 a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hover {color: black;}
+
+.textMain {
+  padding: 20px; font-size: 2vw;
+}
+
+.subTitle {
+  text-align: center;
+  font-size: 2.5vw;
+}
 
 .transition-1 {
     position: fixed;
@@ -120,3 +149,5 @@ a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hove
   .transition-3.is-active {
     top: 0;
   }
+
+  
