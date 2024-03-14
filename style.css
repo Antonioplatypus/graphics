@@ -16,9 +16,17 @@ body, html {
     display:block; width: 80%; height: 80%; margin-left: auto; margin-right: auto; padding-bottom: 35px;
 }
 
-.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
-.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
-.ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px;}
+.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 0px;}
+.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 0;}
+.ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px; align-items: center; justify-content: center;}
+.textright-pong {
+  background-image: url("../images/pong2.gif"); 
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+  
 .imgcontainer {display:flex; align-items: center; justify-content: center; max-width: 1080px; max-height: 720px;}
 .gallery { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 15px; text-align: center; align-items: center;}
 
@@ -36,7 +44,7 @@ body, html {
 .imgrightab {
   flex-shrink: 0.2;
   padding: 20px; 
-  width: 820px;
+  width: 600px;
   height: 108px;
 }
 
@@ -85,7 +93,7 @@ body, html {
     width: 100%;
     position: fixed;
     left: 0;
-    justify-content: center;
+    justify-content:space-around;
     background-color: #1F3438;
     padding-top: 8px; padding-bottom: 8px;
     z-index: 3;
@@ -150,4 +158,71 @@ a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hove
     top: 0;
   }
 
+  /* Quiz */
+  .app {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+  }
+
+  .app h1{
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+  }
+  .quiz{
+    padding: 20px 0;
+  }
+
+  .quiz h2{
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+  }  
+
+  .appbtn {
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .appbtn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+  }
+
+  .appbtn:disabled{cursor: no-drop;}
+
+  #next-btn{
+    background-color: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .correct {
+    background: #9aeabc;
+  }
+  .incorrect {
+    background: #ff9393;
+  }
   
