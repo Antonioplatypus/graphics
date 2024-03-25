@@ -26,12 +26,12 @@ const questions = [
     ]
     },
     {
-    question: "Which was the first game ever made?",
+    question: "Which of these is the best selling NES game?",
     answers: [
-        {text: "Tennis for Two", correct:true},
-        {text: "Pong", correct:false},
-        {text: "Mario", correct:false},
-        {text: "Fortnite", correct:false},
+        {text: "Super Mario Bros", correct:true},
+        {text: "Super Mario Bros 3", correct:false},
+        {text: "Tetris", correct:false},
+        {text: "Donkey Kong", correct:false},
     ]
     },
     {

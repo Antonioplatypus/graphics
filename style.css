@@ -1,4 +1,4 @@
-body { background-color: #474A51; }
+body { background-color: #494D5F; }
 
 
 body, html {
@@ -16,8 +16,8 @@ body, html {
     display:block; width: 80%; height: 80%; margin-left: auto; margin-right: auto; padding-bottom: 35px;
 }
 
-.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 0px;}
-.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 0;}
+.rcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 0px; flex-shrink: 1;}
+.lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 0; min-height: 200px;}
 .ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px; align-items: center; justify-content: center;}
 .textright-pong {
   background-image: url("../images/pong2.gif"); 
@@ -26,6 +26,14 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   }
+
+  .textright-DK {
+    background-image: url("../images/DK.png"); 
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
   
 .imgcontainer {display:flex; align-items: center; justify-content: center; max-width: 1080px; max-height: 720px;}
 .gallery { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 15px; text-align: center; align-items: center;}
@@ -37,15 +45,15 @@ body, html {
 .imgright {
   flex-shrink: 0.2;
   padding: 20px; 
-  width: 540px;
-  height: 720px;
+  max-width: 540px;
+  max-height: 720px;
 }
 
 .imgrightab {
   flex-shrink: 0.2;
   padding: 20px; 
-  width: 600px;
-  height: 108px;
+  max-width: 600px;
+  max-height: 108px;
 }
 
 .imgright a {
