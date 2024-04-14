@@ -1,4 +1,4 @@
-body { background-color: #494D5F; }
+body { background-color: #494D5F;}
 
 
 body, html {
@@ -10,6 +10,7 @@ body, html {
   width: 100%; height: 100%;
   z-index: -1;
   opacity: 75%;
+  padding: 0;
 }
 
 #imgMain {
@@ -29,6 +30,22 @@ body, html {
 
   .textright-DK {
     background-image: url("../images/DK.png"); 
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+  .textright-sonic {
+    background-image: url("../images/sonicbg.jpg"); 
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+  .textright-vf {
+    background-image: url("../images/vfbg2.jpg"); 
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -84,7 +101,7 @@ body, html {
 }
 
 .textright{
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 .headerright{
@@ -93,7 +110,7 @@ body, html {
 }
 
 .pright{
-    font-size: 2vw;
+    font-size: 2vw; 
 }
 
 .header {
@@ -110,7 +127,7 @@ body, html {
 a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hover {color: black;}
 
 .textMain {
-  padding: 20px; font-size: 2vw;
+  padding: 20px; font-size: 2vw; padding-left: 2vw; padding-right: 2vw;
 }
 
 .subTitle {
