@@ -35,12 +35,12 @@ const questions = [
     ]
     },
     {
-    question: "Which was the first game ever made?",
+    question: "Which one of these popularized 3D graphics for fighting games?",
     answers: [
-        {text: "Tennis for Two", correct:true},
-        {text: "Pong", correct:false},
-        {text: "Mario", correct:false},
-        {text: "Fortnite", correct:false},
+        {text: "Street Fighter", correct:false},
+        {text: "Virtua Fighter", correct:true},
+        {text: "Guilty Gear", correct:false},
+        {text: "Tekken", correct:false},
     ]
     },
     {

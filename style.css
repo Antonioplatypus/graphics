@@ -1,4 +1,4 @@
-body { background-color: #494D5F;}
+body { background-color: #2489d7;}
 
 
 body, html {
@@ -251,3 +251,42 @@ a:link,a:visited,a:hover,a:active { text-decoration: none; color: white;} a:hove
     background: #ff9393;
   }
   
+  .custom-shape-divider-bottom-1713284723 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713284723 svg {
+    position: relative;
+    display: block;
+    width: calc(102% + 1.3px);
+    height: 201px;
+}
+
+.custom-shape-divider-bottom-1713284723 .shape-fill {
+    fill: #fdff03;
+}
+.custom-shape-divider-top-1713286209 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1713286209 svg {
+  position: relative;
+  display: block;
+  width: calc(102% + 1.3px);
+  height: 201px;
+}
+
+.custom-shape-divider-top-1713286209 .shape-fill {
+  fill: #FFFFFF;
+}
