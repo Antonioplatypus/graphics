@@ -9,7 +9,7 @@ body, html {
 #backgroundMain {
   width: 100%; height: 100%;
   z-index: -1;
-  opacity: 75%;
+  opacity: 100%;
   padding: 0;
 }
 
@@ -21,7 +21,7 @@ body, html {
 .lcontainer {display:flex; padding: 36px; gap:36px; flex-direction: row-reverse; max-width: 1920px; max-height: 1080px; margin-bottom: 0; min-height: 200px;}
 .ccontainer {display:flex; padding: 36px; gap:36px; flex-direction: row; max-width: 1920px; max-height: 1080px; margin-bottom: 40px; align-items: center; justify-content: center;}
 .textright-pong {
-  background-image: url("../images/pong2.gif"); 
+  background-image: url("./images/pong2.gif"); 
   z-index: -1;
   background-size: cover;
   background-position: center;
@@ -29,7 +29,7 @@ body, html {
   }
 
   .textright-DK {
-    background-image: url("../images/DK.png"); 
+    background-image: url("./images/DK.png"); 
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -37,15 +37,7 @@ body, html {
     }
 
   .textright-sonic {
-    background-image: url("../images/sonicbg.jpg"); 
-    z-index: -1;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    }
-
-  .textright-vf {
-    background-image: url("../images/vfbg2.jpg"); 
+    background-image: url("./images/sonicbg.jpg"); 
     z-index: -1;
     background-size: cover;
     background-position: center;
@@ -56,7 +48,7 @@ body, html {
 .gallery { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 15px; text-align: center; align-items: center;}
 
 .galleryimg > img {
-  width: 420px; height: 420px; border-radius: 12px; padding-bottom: 12px;
+  width: 380px; height: 380px; border-radius: 12px; padding-bottom: 12px;
 }
 
 .imgright {
@@ -95,7 +87,6 @@ body, html {
 }
 
 .imgrightab > img {
-  padding-top: 20px;
   height: 400%;
   width: 100%;
 }
