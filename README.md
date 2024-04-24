@@ -21,3 +21,8 @@ Halo Combat Evolved : https://en.wikipedia.org/wiki/Halo:_Combat_Evolved
 Grand Theft Auto IV : https://en.wikipedia.org/wiki/Grand_Theft_Auto_IV
 Grand Theft Auto V : https://en.wikipedia.org/wiki/Grand_Theft_Auto_V
 WII Sports: https://en.wikipedia.org/wiki/Wii_Sports
+Castlevania: Aria of Sorrow : https://en.wikipedia.org/wiki/Castlevania:_Aria_of_Sorrow
+The world ends with you : https://en.wikipedia.org/wiki/The_World_Ends_with_You
+Kingdom Hearts Birth by Sleep : https://en.wikipedia.org/wiki/Kingdom_Hearts_Birth_by_Sleep
+Red Dead Redemption 2 : https://en.wikipedia.org/wiki/Red_Dead_Redemption_2
+Cyberpunk 2077 : https://en.wikipedia.org/wiki/Cyberpunk_2077
