@@ -51,6 +51,42 @@ const questions = [
         {text: "Wolfenstein", correct:false},
         {text: "DOOM", correct:true},
     ]
+    },
+    {
+    question: "Which company dominated the handheld market during the 2000's?",
+    answers: [
+        {text: "Nintendo", correct:true},
+        {text: "Playstation", correct:false},
+        {text: "Xbox", correct:false},
+        {text: "Atari", correct:false},
+    ]
+    },
+    {
+    question: "The most expensive game ?",
+    answers: [
+        {text: "Super Mario Bros", correct:true},
+        {text: "Super Mario Bros 3", correct:false},
+        {text: "Tetris", correct:false},
+        {text: "Donkey Kong", correct:false},
+    ]
+    },
+    {
+    question: "Which one of these popularized 3D graphics for fighting games?",
+    answers: [
+        {text: "Street Fighter", correct:false},
+        {text: "Virtua Fighter", correct:true},
+        {text: "Guilty Gear", correct:false},
+        {text: "Tekken", correct:false},
+    ]
+    },
+    {
+    question: 'Which game has been termed "inarguably the most important" first-person shooter?',
+    answers: [
+        {text: "Call of Duty", correct:false},
+        {text: "Quake", correct:false},
+        {text: "Wolfenstein", correct:false},
+        {text: "DOOM", correct:true},
+    ]
     }
 ];
 
